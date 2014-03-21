@@ -1,0 +1,189 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_bg"
+    android:orientation="vertical"
+    tools:context=".Tracking" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/amount_placeholder"
+            android:inputType="number"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/white_text"
+            android:textColorHint="@color/gray_text" />
+
+        <EditText
+            android:id="@+id/group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/group_placeholder"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/white_text"
+            android:textColorHint="@color/gray_text" />
+
+        <ScrollView
+            android:id="@+id/login_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center_horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/first_beer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="3"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    android:text="Beer"
+                    android:textColor="@color/white_text" />
+
+                <Button
+                    android:id="@+id/beer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="3"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    android:text="Beer"
+                    android:textColor="@color/white_text" />
+
+                <Button
+                    android:id="@+id/beer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="3"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    android:text="Beer"
+                    android:textColor="@color/white_text" />
+
+                <Button
+                    android:id="@+id/beer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="3"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    android:text="Beer"
+                    android:textColor="@color/white_text" />
+
+                <Button
+                    android:id="@+id/beer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="3"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    android:text="Beer"
+                    android:textColor="@color/white_text" />
+
+                <Button
+                    android:id="@+id/beer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="3"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    android:text="Beer"
+                    android:textColor="@color/white_text" />
+
+                <Button
+                    android:id="@+id/beer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="3"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    android:text="Beer"
+                    android:textColor="@color/white_text" />
+
+                <Button
+                    android:id="@+id/beer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="3"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    android:text="Beer"
+                    android:textColor="@color/white_text" />
+
+                <Button
+                    android:id="@+id/food_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="3"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    android:text="Food"
+                    android:textColor="@color/white_text" />
+
+                <Button
+                    android:id="@+id/taxi_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="3"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    android:text="Taxi"
+                    android:textColor="@color/white_text" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" >
+                </View>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="start"
+        android:background="@color/white_bg50"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/plus_button"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:text="@string/save_expense"
+            android:textColor="@color/blue_bg"
+            android:onClick="saveExpense" />
+    </RelativeLayout>
+
+</RelativeLayout>
